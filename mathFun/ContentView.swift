@@ -86,9 +86,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
             .padding(.top)
             .environment(\.sizeCategory, .large)
-            
-            
-            
-            
     }
 }
