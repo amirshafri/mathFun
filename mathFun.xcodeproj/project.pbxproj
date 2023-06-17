@@ -14,7 +14,9 @@
 		3E0BA3012A3D8FAD00EC28ED /* mathFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BA3002A3D8FAD00EC28ED /* mathFunTests.swift */; };
 		3E0BA30B2A3D8FAD00EC28ED /* mathFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BA30A2A3D8FAD00EC28ED /* mathFunUITests.swift */; };
 		3E0BA30D2A3D8FAD00EC28ED /* mathFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BA30C2A3D8FAD00EC28ED /* mathFunUITestsLaunchTests.swift */; };
-		3E0BA31A2A3D917100EC28ED /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BA3192A3D917100EC28ED /* AnswerButton.swift */; };
+		3E0BA31F2A3DBA1100EC28ED /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BA31E2A3DBA1100EC28ED /* AnswerButton.swift */; };
+		3E0BA3212A3DBA4B00EC28ED /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BA3202A3DBA4B00EC28ED /* StartButton.swift */; };
+		3E0BA3232A3DD7DC00EC28ED /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BA3222A3DD7DB00EC28ED /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +48,9 @@
 		3E0BA3062A3D8FAD00EC28ED /* mathFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0BA30A2A3D8FAD00EC28ED /* mathFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathFunUITests.swift; sourceTree = "<group>"; };
 		3E0BA30C2A3D8FAD00EC28ED /* mathFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3E0BA3192A3D917100EC28ED /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		3E0BA31E2A3DBA1100EC28ED /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		3E0BA3202A3DBA4B00EC28ED /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		3E0BA3222A3DD7DB00EC28ED /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		3E0BA2ED2A3D8FAB00EC28ED /* mathFun */ = {
 			isa = PBXGroup;
 			children = (
+				3E0BA31E2A3DBA1100EC28ED /* AnswerButton.swift */,
 				3E0BA2EE2A3D8FAB00EC28ED /* mathFunApp.swift */,
 				3E0BA2F02A3D8FAB00EC28ED /* ContentView.swift */,
 				3E0BA2F22A3D8FAC00EC28ED /* Assets.xcassets */,
 				3E0BA2F72A3D8FAC00EC28ED /* mathFun.entitlements */,
 				3E0BA2F42A3D8FAC00EC28ED /* Preview Content */,
-				3E0BA3192A3D917100EC28ED /* AnswerButton.swift */,
+				3E0BA3202A3DBA4B00EC28ED /* StartButton.swift */,
+				3E0BA3222A3DD7DB00EC28ED /* GameView.swift */,
 			);
 			path = mathFun;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			files = (
 				3E0BA2F12A3D8FAB00EC28ED /* ContentView.swift in Sources */,
 				3E0BA2EF2A3D8FAB00EC28ED /* mathFunApp.swift in Sources */,
-				3E0BA31A2A3D917100EC28ED /* AnswerButton.swift in Sources */,
+				3E0BA3212A3DBA4B00EC28ED /* StartButton.swift in Sources */,
+				3E0BA31F2A3DBA1100EC28ED /* AnswerButton.swift in Sources */,
+				3E0BA3232A3DD7DC00EC28ED /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
