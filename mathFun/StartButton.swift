@@ -10,6 +10,7 @@ import SwiftUI
 struct StartButton: View {
     
     @State private var showGameView = false
+    @State private var isAnimating = false
     
     var body: some View {
         NavigationStack {
@@ -22,9 +23,13 @@ struct StartButton: View {
                         .font(.system(size: 40, weight: .bold))
                         .foregroundColor(Color.white)
                         .background(Color.black)
-                        .cornerRadius(0)
+                        .cornerRadius(10)
                         .padding()
-                }
+                        .scaleEffect(isAnimating ? 1.2 : 1.0)
+                        .animation(Animation.easeInOut(duration: 0.5).repeatForever(autoreverses: true))
+                        .onAppear {
+                            isAnimating = true
+                        }                }
             }
             .navigationTitle("")
             .navigationDestination(isPresented: $showGameView) {
